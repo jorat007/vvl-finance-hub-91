@@ -149,7 +149,7 @@ const Contact = () => (
     <div className="container mx-auto px-4">
       <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground text-center mb-4">Get in Touch</h2>
       <div className="w-16 h-1 bg-primary rounded-full mx-auto mb-12" />
-      <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+      <div className="grid md:grid-cols-4 gap-4 max-w-4xl mx-auto">
         <a href="tel:+919962028302" className="bg-secondary rounded-2xl p-6 text-center card-hover block">
           <Phone className="text-primary mx-auto mb-3" size={28} />
           <p className="font-semibold text-foreground">Phone</p>
