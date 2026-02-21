@@ -150,15 +150,20 @@ const Contact = () => (
       <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground text-center mb-4">Get in Touch</h2>
       <div className="w-16 h-1 bg-primary rounded-full mx-auto mb-12" />
       <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-        <a href="tel:+919884445194" className="bg-secondary rounded-2xl p-6 text-center card-hover block">
+        <a href="tel:+919962028302" className="bg-secondary rounded-2xl p-6 text-center card-hover block">
           <Phone className="text-primary mx-auto mb-3" size={28} />
           <p className="font-semibold text-foreground">Phone</p>
-          <p className="text-muted-foreground text-sm mt-1">+91 988 444 5194</p>
+          <p className="text-muted-foreground text-sm mt-1">+91 99 620 283 02</p>
         </a>
-        <a href="mailto:vvlconstruction.lv@gmail.com" className="bg-secondary rounded-2xl p-6 text-center card-hover block">
+        <a href="mailto:saranraj87.ss@gmail.com" className="bg-secondary rounded-2xl p-6 text-center card-hover block">
           <Mail className="text-primary mx-auto mb-3" size={28} />
           <p className="font-semibold text-foreground">Email</p>
-          <p className="text-muted-foreground text-sm mt-1">vvlconstruction.lv@gmail.com</p>
+          <p className="text-muted-foreground text-sm mt-1">saranraj87.ss@gmail.com</p>
+        </a>
+         <a href="mailto:admin@vvlenterprises.in" className="bg-secondary rounded-2xl p-6 text-center card-hover block">
+          <Mail className="text-primary mx-auto mb-3" size={28} />
+          <p className="font-semibold text-foreground">Write us</p>
+          <p className="text-muted-foreground text-sm mt-1">admin@vvlenterprises.in</p>
         </a>
         <div className="bg-secondary rounded-2xl p-6 text-center">
           <MapPin className="text-primary mx-auto mb-3" size={28} />
